@@ -16,11 +16,9 @@ body {
   font-size: 16px;
 }
 
-#typing-text {
-  font-size: 7rem;
-  color: #007bff; /* Changed green to blue */
-  margin: 10px 0;
-  font-weight: bold;
+#ima{
+    font-size: 3rem;
+    color: white;
 }
 
 #cursor {
@@ -64,10 +62,10 @@ nav {
   
 }
 #im {
-    /* You can still move it using top, left, etc. */
-  left: -600px;             /* You can adjust this to position manually */
-  height: auto;           /* Let image keep aspect ratio */
-  width: 50px;            /* Increased width so it’s visible */
+    
+  left: -600px;             
+  height: auto;           
+  width: 50px;           
  position: relative;
     background-color: white;
 border-radius: 50%;
@@ -75,7 +73,7 @@ border-radius: 50%;
 
 
 nav .logo h2 {
-  color: #007bff; /* blue */
+  color: #007bff; 
   font-weight: 700;
   font-size: 1.8rem;
 }
@@ -255,7 +253,7 @@ header {
 .header-right img {
   width: 70%;
   height: 100%;
-  border-radius: 80%; /* make circular */
+  border-radius: 80%;
   border: 4px solid #007bff; 
   box-shadow: 0 0 15px 4px rgba(0, 123, 255, 0.9);
   filter: none; 
@@ -335,7 +333,7 @@ header {
   font-weight: 500;
 }
 
-/* === SERVICES === */
+
 #Services {
   padding: 3rem 0;
   background: #171717;
@@ -394,7 +392,6 @@ header {
   color: #bbb;
 }
 
-/* === SKILLS === */
 #skills {
   background: #1c1c1c;
   padding: 3rem 0;
@@ -495,7 +492,7 @@ header {
   margin-bottom: 1rem;
   object-fit: cover;
   max-height: 200px;
-  filter: none; /* show original colors */
+  filter: none; 
 }
 
 #Blog .card p {
@@ -593,7 +590,7 @@ left: 200px;
   outline-offset: 2px;
 }
 
-/* === FOOTER === */
+
 footer {
   text-align: center;
   padding: 1rem 0;
