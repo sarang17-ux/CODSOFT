@@ -1,12 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Sarang Singhal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 </head>
 <body>
-    ssssarabgssssssssss
-    ssssaaa
+
+  <nav>
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <h2>Sarang<span> Singhal</span></h2>
+      </a>
+      <img id ="im" src="man.png" alt="">
+      <ul>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Services">Services</a></li>
+        <li><a href="#Blog">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <header>
+    
+     <div class="starfield"></div>
+    <div class="header-container container">
+      <div class="header-left">
+        <h1>Hello,</h1>
+        <h2>I am <span id="s">Sarang </span>Singhal</h2>
+        <p class="typing-text">I am a <span id="typed-text"></span><span id="cursor">|</span></p>
+        <p>
+          Master in HTML, CSS, JavaScript, and React.js with experience in
+          Windows and Linux environments. Committed to delivering high-quality
+          web applications and driving organizational growth.
+        </p>
+        <h5>Frontend Developer</h5>
+        <div class="header-action-aria">
+          <a href="cv.pdf" download class="btn btn-primary">Download CV</a>
+          <a href="#About" class="btn">Read more</a>
+        </div>
+      </div>
+      <div class="header-right">
+        <img src="sarang.jpg" alt="Sarang Singhal">
+      </div>
+    </div>
+  </header>
+
+  
+  <section id="About">
+    <h1><span>A</span>bout</h1>
+    <div class="container about-container">
+      <p>
+        I'm a diligent <span>Frontend Developer</span> passionately committed to
+        refining my <span>CSS, HTML,</span> and <span>React</span> skills. My
+        goal is to create captivating, responsive, and user-friendly web interfaces.
+      </p>
+    </div>
+    <div class="about-content">
+      <article class="about-article">
+        <img src="man.png" alt="">
+        <h5>FULL NAME</h5>
+        <p>Sarang Singhal</p>
+      </article>
+      <article class="about-article">
+        <img src="email.png" alt="">
+        <h5>EMAIL</h5>
+        <p>sarang@example.com</p>
+      </article>
+      <article class="about-article">
+        <img src="linkedin.png" alt="">
+        <h5>LinkedIn</h5>
+        <p>linkedin.com/in/sarang-singhal</p>
+      </article>
+      <article class="about-article">
+        <img src="telephone-call.png" alt="">
+        <h5>PHONE</h5>
+        <p>+91 98765 43210</p>
+      </article>
+    </div>
+  </section>
+
+  
+  <section id="Services">
+    <h1><span>W</span>hat I Do</h1>
+    <div class="container services-container">
+      <article class="services-article">
+        <img src="software.png" alt="">
+        <h2>Software Development</h2>
+        <p>Designing, coding, testing, and maintaining software tailored to client needs.</p>
+      </article>
+      <article class="services-article">
+        <img src="web design (2).jpg" alt="">
+        <h2>Web Development</h2>
+        <p>Crafting websites with optimal functionality, design, and responsiveness.</p>
+      </article>
+      <article class="services-article">
+        <img src="python.png" alt="">
+        <h2>Python Programming</h2>
+        <p>Python for data science, automation, scripting, and backend development.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h1><span>M</span>y Skills</h1>
+    <div class="container skills-container">
+      <article class="skill-article"><h4>HTML</h4></article>
+      <article class="skill-article"><h4>CSS</h4></article>
+      <article class="skill-article"><h4>JavaScript</h4></article>
+      <article class="skill-article"><h4>React</h4></article>
+      <article class="skill-article"><h4>Python</h4></article>
+      <article class="skill-article"><h4>C++</h4></article>
+      <article class="skill-article"><h4>Node</h4></article>
+      <article class="skill-article"><h4>DSA</h4></article>
+    </div>
+  </section>
+
+
+  <section id="Blog">
+    <div class="row">
+      <div class="header">
+        <h1><span>P</span>rojects</h1>
+        <p>Insights on front-end development, web design, and more.</p>
+      </div>
+      <div class="content">
+        <div class="card">
+          <img src="web design (1).jpg" alt="">
+          <p>Project 1: Student Performance Tracker</p><br>
+          <p>Built a web app to track and visualize student academic performance.
+Used React.js and Firebase for real-time updates and analytics..</p>
+        </div>
+        <div class="card">
+          <img src="imgs.png" >
+          <p> Project 2: Machine Learning Model</p><br>
+          <p>Developed a predictive ML model using Python and scikit-learn.
+Achieved high accuracy by training and tuning multiple algorithms..</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="Contact">
+    <h1><span>Get</span> In Touch</h1>
+    <div class="contatact-container container">
+      <form>
+        <div class="form-top">
+          <input type="text" placeholder="First Name" required>
+          <input type="text" placeholder="Last Name" required>
+          <input type="email" placeholder="Email" required>
+          <input type="number" placeholder="Phone Number" required>
+        </div>
+        <div class="form-bottom">
+          <textarea name="message" placeholder="Your message..."></textarea>
+          <button type="submit" class="btn btn-primary c">Submit Now</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <footer>
+    &copy; 2025 Sarang Singhal
+  </footer>
+
+  
+  <script>
+  window.onload = function () {
+
+    const words = ["Developer", "Designer","Programmer","Data Analyst"];
+    let wordIndex = 0;
+    let charIndex = 0;
+    let typing = true;
+    const typedText = document.getElementById("typed-text");
+    const cursor = document.getElementById("cursor");
+
+    function typeWriter() {
+      const currentWord = words[wordIndex];
+
+      if (typing) {
+        typedText.textContent = currentWord.substring(0, charIndex + 1);
+        charIndex++;
+
+        if (charIndex === currentWord.length) {
+          typing = false;
+          setTimeout(typeWriter, 1200);
+          return;
+        }
+      } else {
+        typedText.textContent = currentWord.substring(0, charIndex - 1);
+        charIndex--;
+
+        if (charIndex === 0) {
+          typing = true;
+          wordIndex = (wordIndex + 1) % words.length;
+          setTimeout(typeWriter, 300);
+          return;
+        }
+      }
+
+      setTimeout(typeWriter, typing ? 100 : 50);
+    }
+
+    typeWriter();
+
+    // === Starfield Animation ===
+    const starfield = document.querySelector('.starfield');
+    const numStars = 150;
+
+    for (let i = 0; i < numStars; i++) {
+      const star = document.createElement('div');
+      star.classList.add('star');
+
+      const size = Math.random() * 3 + 2;
+      star.style.width = `${size}px`;
+      star.style.height = `${size}px`;
+
+      star.style.top = `${Math.random() * 100}%`;
+      star.style.left = `${Math.random() * 100}%`;
+
+      const duration = Math.random() * 40 + 20;
+      const speedX = (Math.random() - 0.5) * 60;
+      const speedY = (Math.random() - 0.5) * 60;
+      const animationName = `moveStar${i}`;
+
+      const styleSheet = document.styleSheets[0];
+      const keyframes = `
+        @keyframes ${animationName} {
+          0% { transform: translate(0, 0); }
+          100% { transform: translate(${speedX * duration}px, ${speedY * duration}px); }
+        }
+      `;
+
+      styleSheet.insertRule(keyframes, styleSheet.cssRules.length);
+
+      star.style.animation = `${animationName} ${duration}s linear infinite, twinkle ${Math.random() * 3 + 2}s ease-in-out infinite`;
+
+      starfield.appendChild(star);
+    }
+  };
+</script>
+
 </body>
 </html>
