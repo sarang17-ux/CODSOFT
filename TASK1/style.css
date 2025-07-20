@@ -110,15 +110,12 @@ nav ul li a:focus {
 }
 
 
-
-
 header {
   position: relative;
   overflow: hidden;
   background: #000;
   padding: 6rem 0;
 }
-
 
 
 .starfield {
@@ -141,14 +138,10 @@ header {
   filter: drop-shadow(0 0 2px white);
 }
 
-
 @keyframes twinkle {
   0%, 100% { opacity: 0.3; }
   50% { opacity: 1; }
 }
-
-
-
 
 
 header {
@@ -500,7 +493,7 @@ header {
   color: #bbb;
 }
 
-/* === CONTACT === */
+
 #Contact {
   background: #1c1c1c;
   padding: 3rem 0;
